@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="game2.css">
+<title>Rock, Paper, Scissors</title>
+</head>
+<body>
+
+    <header>
+        <h1>Rock, Paper, Scissors</h1>
+    </header>
+<div class="game-container">
+<div id="user-label" class="badge">user</div>
+<div id="computer-label" class="badge">comp</div>
+<span id="user-score">0</span>:<span id="computer-score">0</span>
+</div>
+
+<div class="result">
+    <p> Paper covers rock. You win</p>
+</div>
+
+<div class="choices">
+    <div class="choice" id="r">
+        <img src ="rock.jpg" alt="" class="choice-img">
+    </div>
+    <div class="choices" id="p">
+        <div class="choice">
+            <img src ="paper.jpg" alt="" class="choice-img">
+        </div>
+        <div class="choices" id="s">
+            <div class="choice">
+                <img src ="scissors.png" alt="" class="choice-img">
+            </div>
+</div>
+
+<p id="action-message">Make your move</p>
+
+<!--
+<div class="choices">
+<div class="choice" id="rock" onclick="playRound('rock')">Rock</div>
+<div class="choice" id="paper" onclick="playRound('paper')">Paper</div>
+<div class="choice" id="scissors" onclick="playRound('scissors')">Scissors</div>
+</div>
+<div class="result">
+<h2 id="result-text">Choose an option to start the game</h2>
+</div>
+</div>
+-->
+<script src="game2.js"></script>
+</body>
+</html>

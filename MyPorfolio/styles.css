@@ -1,0 +1,118 @@
+.bgimage{   
+    height:100vh;
+    background: url('download.jpeg');
+    background-size:cover;
+    position:relative;
+}
+.hero_title{
+    font-size: 4.5rem;
+}
+.hero_desc{
+    font-size:2rem;
+}
+.hero-text{
+    text-align:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.imageAboutPage
+{
+ width: 100%;
+}
+.servicesText.card{
+    height: 280px;
+    cursor: pointer;
+}
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width:100%
+   
+}
+.card-title{
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover{
+    border: 1px solid #008000;
+}
+.navbarScroll.navbarDark{
+    background-color: rgb(242, 242, 242);
+}
+.social-icons{
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #008000;
+}
+.fab{
+    color:#951c1c;
+}
+#footer{
+    background-color: navy;
+    text-align: center;
+}
+
+#about, #services, #portfolio, #contact, #skills, #fw {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+} 
+.hobbies-icons {
+    display: flex;
+    align-items: center;
+}
+
+.hobbies-icons img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ff0707;
+    border-radius: 5px;
+    background-color: navy;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #144243;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #4caf50;
+    color: navy;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color:  red;
+    padding: 20px;
+}
+
+header > h1{
+    color:  rgb(5, 255, 13);
+    text-align: center;
+    font-family: Asap, sans-serif;
+   
+
+}
+body {
+    background-image: url('animated-gifs-of-fighting-game-backgrounds-36.gif'); 
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    animation: animateBackground 10s linear infinite; 
+    }
+    .choices {
+    margin: 50px 0;
+    text-align: center;
+    }
+    .choice {
+    width: 150px;
+    height: 150px;
+    border: 4px solid rgb(231, 231, 231);
+    border-radius:50%;
+    padding: 10px;
+    margin: 0 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .choice:hover {
+        cursor: pointer;
+        background: rgb(3, 234, 255);
+    }
+    .choice:hover .choice-img {
+        transform: scale(1.1);
+    }
+
+    .result {
+    margin-top: 30px;
+    }
+    .choice-img {
+        width: 100%; /* Adjust the width to fill the circle */
+        height: 100%; /* Adjust the height to fill the circle */
+        object-fit: cover; /* Fill the content while maintaining aspect ratio */
+        border-radius: 50%; /* Add rounded corners for a nicer look */
+        transition: transform 0.3s ease; /* Add a smooth transition effect */
+       
+    }
+    
+    .choice-img:hover {
+        transform: scale(1.1); /* Scale up the image on hover for a subtle effect */
+    }
+    .game-container{
+        border: 3px solid white;
+        border-radius: 4px;
+        text-align: center;
+        width: 200px;
+        margin: 15px auto;
+        color: rgb(0, 213, 255);
+        font-size: 46px;
+        padding:15 20px;
+        font-family: Asap,sans-serif;
+        position: relative;
+
+    }
+    .badge{
+        background: #e2584d;
+        color: white;
+        font-size: 14px;
+        padding: 2px 10px;
+        font-family: Asap,sans-serif;
+    }
+    #user-label{
+        position: absolute;
+        top: 30px;
+        left: -25px;
+    }
+    #computer-label{
+        position: absolute;
+        top: 30px;
+        right: -30px;
+    }
+    .result{
+        font-size: 40px;
+        color: white;
+    }
+
+    .result > p{
+        text-align: center;
+        font-weight: bold;
+        font-family: Asap, sans-serif;
+    }
+    #action-message{
+        text-align: center;
+        color: white;
+        font-family: Asap, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .green-glow{
+        border: 4px solid green;
+        box-shadow: 0 0 10px rgb(50, 255, 50);
+    }
+    .red-glow{
+        border: 4px solid rgb(85, 1, 1);
+        box-shadow: 0 0 10px rgb(255, 0, 0);
+    }
+    .gray-glow{
+        border: 4px solid rgb(64, 64, 64);
+        box-shadow: 0 0 10px rgb(131, 131, 131);
+    }
